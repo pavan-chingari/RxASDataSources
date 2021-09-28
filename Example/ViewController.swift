@@ -78,7 +78,7 @@ class ViewController: UIViewController {
         let dataSource = RxASTableAnimatedDataSource<NumberSection>(configureCell: configureCell, titleForHeaderInSection: titleForHeaderInSection)
 
         Observable<Int>
-            .interval(2.0, scheduler: MainScheduler.instance)
+            .interval(RxTimeInterval.milliseconds(2000), scheduler: MainScheduler.instance)
             .map { _ in
                 var sectionIndex = Set<Int>()
                 var section = [NumberSection]()
