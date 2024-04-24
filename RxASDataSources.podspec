@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
      s.homepage = 'https://github.com/RxSwiftCommunity/RxASDataSources'
      s.social_media_url = 'https://twitter.com/dangthaison91'
      s.authors = { "Dang Thai Son" => "dangthaison.91@gmail.com" }
-     s.source = { :git => "https://github.com/RxSwiftCommunity/RxASDataSources.git", :tag => s.version.to_s }
+     s.source = { :git => "https://github.com/pavan-chingari/RxSwift/tree/main", :tag => s.version.to_s }
 
      s.ios.deployment_target = '9.0'
      s.requires_arc = true
